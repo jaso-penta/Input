@@ -13,18 +13,26 @@ PRIMJER ISPISA:
 NAPOMENA Za sada kod unosa neka kod prvog unosa drugi broj NE bude 0 (nula), 
 jer nije dopušteno dijeliti s nulom. To svakako pokušajte napraviti, ali NE u prvom pokušaju.
 '''
+
+
 # 1. korak - pohranjujemo vrijednosti od korisnika
 a = input('Unesi vrijednost prvog broja: ')
 b = input('Unesi vrijednost drugog broja: ')
 
-# 2. korak - Unesene brojeve pretvori u int
 
+# 2. korak - Unesene brojeve pretvori u int
 a = int(a) 
 b = int(b) 
 
 
+# Kraci oblik unosa teksta i konverzije u zeljeni tip podataka
+# a = int(input('Unesi vrijednost prvog broja: '))
+# b = int(input('Unesi vrijednost drugog broja: '))
+
+
 # print('Vrijednost a:', a) 
 # print('Vrijednost b:', b)
+
 
 print('Zbroj brojeva a', a, 'i b', b, 'je ', a + b)
 print('Razlika brojeva a', a, 'i b', b, 'je ', a- b)
@@ -32,6 +40,7 @@ print('Umnozak brojeva a', a, 'i b', b, 'je ', a * b)
 print('Kolicnik brojeva a', a, 'i b', b, 'je ', a / b)
 print('Potencija brojeva a', a, 'i b', b, 'je ', a ** b)
 print('Modula brojeva a', a, 'i b', b, 'je ', a % b)
+
 
 '''
 Modulo - simbol %
