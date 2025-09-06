@@ -9,7 +9,7 @@
 print()
 fuel_consumption = float(input('Kolika je potrosnja goriva na 100km ?: '))
 fuel_price = float(input('Kolika je cijena goriva ?: ')) #EURO
-one_way_distance = int(input('Kolika je dnevna kilometraza u jednom smijeru?: '))
+one_way_distance = int(input('Kolika je dnevna kilometraza u jednom smjeru?: '))
 days_in_month = int(input('Koliko je dana u mjesecu ?: '))
 
 # Izracuni
