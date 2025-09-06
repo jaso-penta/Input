@@ -20,7 +20,7 @@ monthly_price = one_km_cost * daily_distance * days_in_month
 
 # Ispis
 print()
-print(f'Cijena jednog kilometra je: {one_km_cost: .2f}$')
-print(f'Dnevni trosak na gorivo je: {daily_fuel_price: .2f}$')
-print(f'Mjesecni trosak na gorivo je: {monthly_price: .2f}$')
+print(f'Cijena jednog kilometra je: {one_km_cost: .2f}€')
+print(f'Dnevni trosak na gorivo je: {daily_fuel_price: .2f}€')
+print(f'Mjesecni trosak na gorivo je: {monthly_price: .2f}€')
 print()
